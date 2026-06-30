@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//OSP//Intellectual Enterprise 2026//RU
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:ip2026-forum@osp.ru
+DTSTAMP:20260628T000000Z
+DTSTART:20261014T070000Z
+DTEND:20261014T150000Z
+SUMMARY:Форум «Интеллектуальное предприятие — 2026»
+DESCRIPTION:Форум о практике использования искусственного интеллекта в бизнесе. Регистрация и программа: https://www.osp.ru
+LOCATION:Москва\, отель «Звёзды Арбата»
+URL:https://www.osp.ru
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Напоминание о форуме
+END:VALARM
+END:VEVENT
+END:VCALENDAR
